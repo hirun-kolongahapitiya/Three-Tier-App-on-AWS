@@ -1,4 +1,4 @@
-# Three-Tier App on AWS — Terraform + ECS Fargate + RDS
+# Three-Tier App on AWS - Terraform + ECS Fargate + RDS
 
 A production-style three-tier application deployed to AWS with Terraform.
 
