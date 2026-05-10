@@ -1,0 +1,17 @@
+project     = "todoapp"
+environment = "dev"
+region      = "us-east-1"
+vpc_cidr    = "10.20.0.0/16"
+
+# Initial image tag for the very first apply. After that, GitHub Actions
+# updates the task definition directly and TF ignores it (lifecycle.ignore_changes).
+image_tag = "latest"
+
+# Optional: HTTPS support
+# acm_certificate_arn = "arn:aws:acm:us-east-1:123456789012:certificate/abcd-1234"
+
+# Email addresses to receive alarm notifications via SNS.
+# Each address gets a confirmation email — they have to click "Confirm subscription".
+alert_emails = [
+  # "you@example.com",
+]
